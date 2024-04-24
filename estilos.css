@@ -1,45 +1,44 @@
-.Calculadora {
-    width: 250px;
-    margin: 50px auto;
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#display {
-    width: 100% - 20px;
-    margin-bottom: 10px;
-    font-size: 20px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+h1 {
+    text-align: center;
+}
+
+#todo-list {
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+div {
+    text-align: center;
+}
+
+input  {
+    width: 50%;
+    padding: 8px;
     box-sizing: border-box;
 }
 
-.keys {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 5px;
-}
-
 button {
-    padding: 10px;
-    font-size: 18px;
-    border: none;
+    background-color: #4CAF50;
+    padding: 8px 20px;
     border-radius: 5px;
-    background-color: #f0f0f0;
+    border-style: none;
+    color: white;
     cursor: pointer;
+   
 }
 
-.operator {
-    background-color: #f93;
-    color: #fff;
+
+ul {
+    list-style-type: none;
+    padding: 0px;
 }
 
-button:hover {
-    background-color: #e0e0e0;
-}
-
-button:active {
-    background-color: #ccc;
+li {
+    margin-bottom: 5px;
+    text-align: center;
 }
